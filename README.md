@@ -1,2 +1,2 @@
-# nitshacks
-NITSHACKS 5.0 official frontend repository
+# spark
+SPARK official frontend repository
