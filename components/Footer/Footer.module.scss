@@ -1,0 +1,49 @@
+.footerSpark{
+    // position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    width: 100vw;
+    height: 20.625rem;
+    background-size: 100%;
+    top: 261.938rem;
+    background: #1C1C65;
+}
+.SparkHead{
+width: 25.313rem;
+height: 8.938rem;
+// left: 32.313rem;
+left: 40vw;
+top: 36.563rem;
+margin-top: 4rem;
+font-family: 'BabaPro';
+font-style: normal;
+font-weight: 400;
+font-size: 6.25rem;
+line-height: 143.2%;
+/* or 143px */
+color: #FFFFFF;
+}
+.SocialLink{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 17.5rem;
+    height: 3rem;
+    // left: 36.25rem;
+    left: 44.5vw;
+    top: 18.063rem;
+
+}
+.SocialIcon{
+width: 3rem;
+height: 3rem;
+
+}
+
+
+

@@ -2,7 +2,7 @@ import { useState, useRef } from 'react'
 import Ham_icon from '../components/elements/ham_icon'
 import Hamburger_menu from '../components/elements/hamburger_menu'
 import Head from 'next/head'
-
+import Footer from '../components/Footer/footer'
 function Hs() {
   const [showMenu, setShowMenu] = useState(false)
   return (
@@ -17,6 +17,7 @@ function Hs() {
 
         <Ham_icon showMenu={showMenu} setShowMenu={setShowMenu} />
       </div>
+      <Footer/>
     </div>
   )
 }
