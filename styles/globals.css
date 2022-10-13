@@ -280,6 +280,6 @@ html{
 }
 
 .backgroundcolor {
-  background: rgb(0,74,126);
-  background-image: linear-gradient(135deg, rgb(3, 77, 134), rgb(12, 0, 31));
+  /* background:; */
+  background-image: linear-gradient(135deg, #0F103F,#0F103F, #12143F);
 }
