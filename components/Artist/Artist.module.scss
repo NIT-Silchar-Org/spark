@@ -1,0 +1,125 @@
+.artist_wrapper {
+  background-color: #032123;
+  background-image: url('../../public//img/Artist_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.heading {
+  font-size: 3.5rem;
+}
+
+.para {
+  clip-path: polygon(
+    15% 0%,
+    100% 0,
+    100% 20%,
+    100% 62%,
+    80% 120%,
+    20% 100%,
+    0 100%,
+    0% 40%
+  );
+  background: linear-gradient(
+    178.54deg,
+    rgba(78, 223, 255, 0.3) -5.07%,
+    rgba(7, 213, 200, 0.3) 98.69%
+  );
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 3rem 4rem;
+  border: 2px solid #206ecd;
+  text-align: center;
+}
+
+.artistImage {
+  box-shadow: -5px 7px 14px #0ab4a9;
+  border: 0.8rem solid #0f103f;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 20%;
+}
+.artistImage > span {
+  overflow: visible !important;
+}
+.image {
+  position: absolute !important;
+  left: -60% !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .heading {
+    font-size: 2rem;
+  }
+  .para {
+    padding: 2rem 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 2rem;
+  }
+  .para {
+    width: 100%;
+    padding: 2rem 2rem;
+  }
+  .artistImage {
+    height: 80vh;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 425px) {
+  .artist_wrapper {
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 125vh;
+    padding: 1rem 0;
+  }
+  .artistImageDiv {
+    top: 3%;
+    left: -20%;
+    position: absolute;
+  }
+
+  .artistImage {
+    height: 50vh;
+  }
+  .image {
+    left: -20% !important;
+  }
+  .heading{
+     margin-bottom: 0.5rem;
+  }
+  .para {
+    width: 100%;
+    font-size: 0.8rem;
+    padding: 1.5rem 2rem;
+  }
+
+  .info {
+     padding: 0 1rem;
+   }
+}
+
+@media screen and (max-width: 320px) {
+     .artist_wrapper {
+       height: 135vh;
+     }
+}
