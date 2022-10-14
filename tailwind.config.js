@@ -17,6 +17,7 @@ module.exports = {
         glitch5:['glitch5'],
         glitch6:['glitch6'],
         babaPro:['babaPro'],
+        montSerrat:['montSerrat']
       },
 
       colors:{
@@ -32,7 +33,8 @@ module.exports = {
         roadRage:['roadRage'],
         mokotoGlitch:['mokotoGlitch'],
         babaPro:['babaPro'],
-        mokotoGlitchMark: ['mokotoGlitchMark']
+        mokotoGlitchMark: ['mokotoGlitchMark'],
+        montserrat: ['montSerrat']
       },
       boxShadow: {
         gradient: ['-3px -3px 8px 4px #D03CAB, 3px 3px 8px 4px #4EDFFF']
