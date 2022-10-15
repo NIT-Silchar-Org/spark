@@ -4,6 +4,7 @@ import Hamburger_menu from '../components/elements/hamburger_menu'
 import Head from 'next/head'
 import Hero from '../components/sections/hero'
 import Main from '../components/sections/Main'
+import Footer from '../components/Footer/footer'
 
 function Hs() {
   const [showMenu, setShowMenu] = useState(false)
@@ -21,6 +22,7 @@ function Hs() {
         <Hero showMenu={showMenu} />
         <Main />
       </div>
+      <Footer/>
     </div>
   )
 }
