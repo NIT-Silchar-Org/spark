@@ -16,24 +16,30 @@ const Hamburger_menu = ({showMenu,setShowMenu}) => {
       }
       style={{
         background:
-          'linear-gradient(to bottom,rgba(70, 190, 212, 0.44),rgba(177, 114, 218, 0.74),rgba(208, 60, 171, 0.55))',
+          'linear-gradient(to bottom,rgba(122, 1, 143, 0.55),rgba(16, 18, 63, 0.55),rgba(16, 18, 63, 0.55) ',
       }}
     >
       <div className="hamburger_menu flex flex-col  items-center">
-        <a onClick={() => setShowMenu((prevShowMenu) => !prevShowMenu)} href="/#about" className="hamburger_links font-light">
-          About HACKS
+        <a
+          onClick={() => setShowMenu((prevShowMenu) => !prevShowMenu)}
+          href="/#about"
+          className="hamburger_links font-light"
+        >
+          About
         </a>
-        <a onClick={() => setShowMenu((prevShowMenu) => !prevShowMenu)} href="/#aboutIIC" className="hamburger_links font-light">
-          About IIC
+        <a
+          onClick={() => setShowMenu((prevShowMenu) => !prevShowMenu)}
+          href="/#aboutIIC"
+          className="hamburger_links font-light"
+        >
+          Artist
         </a>
-        <a onClick={() => setShowMenu((prevShowMenu) => !prevShowMenu)} href="/#events" className="hamburger_links font-light">
-          Events
-        </a>
-        <a onClick={() => setShowMenu((prevShowMenu) => !prevShowMenu)} href="/#sponsors" className="hamburger_links font-light">
-          Sponsors
-        </a>
-        <a onClick={() => setShowMenu((prevShowMenu) => !prevShowMenu)} href="/#contact" className="hamburger_links font-light">
-          Contact
+        <a
+          onClick={() => setShowMenu((prevShowMenu) => !prevShowMenu)}
+          href="/#events"
+          className="hamburger_links font-light"
+        >
+          Gallery
         </a>
       </div>
       {/* <img src={rec} alt="rec" className="absolute top-0 left-0 z-[-1]"/> */}
