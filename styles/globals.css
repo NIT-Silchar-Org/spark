@@ -65,15 +65,24 @@
 
 @layer base{
   @font-face {
+  font-family: 'montSerrat';
+    src: url('/Fonts/Montserrat-Regular.ttf') ;
+    font-weight:400;
+    font-display:swap;
+    font-style:normal;
+   }
+  }
+
+@layer base{
+  @font-face {
     font-family: 'impact';
     src: url('/Fonts/impact.ttf') ;
     font-weight:400;
     font-display:swap;
     font-style:normal;
-
-
   }
 }
+
 .hamburger_links{
   @apply  text-[35px] md:text-[45px] my-7 font-black text-white cursor-pointer no-underline z-10 font-[lemonMilk] ;
 }
@@ -305,6 +314,6 @@ html{
 }
 
 .backgroundcolor {
-  /* background:; */
-  background-image: linear-gradient(135deg, #0F103F,#0F103F, #12143F);
+  background: rgb(0,74,126);
+  background-image: linear-gradient(to bottom, black, rgb(12, 0, 31), rgb(3, 77, 134), rgb(3, 77, 134));
 }

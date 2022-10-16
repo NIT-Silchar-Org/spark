@@ -12,7 +12,7 @@ import download from '../../public/btn.svg'
 function footer(){
   const [offsetY, setOffsetY] = useState(0)
   const handleScroll = () => {
-    setOffsetY(window.pageYOffset - window.screenY)
+    setOffsetY(window.pageYOffset - window.screenY - 1500)
   }
   useEffect(() => {
     window.addEventListener('scroll', handleScroll)
@@ -42,7 +42,7 @@ function footer(){
             </div>
             
           <div className={`${styles.bulb} w-80 h-80 md:w-[30vw] md:h-80 left-0`}
-          style={{ transform: `translateY(-${(offsetY-1000) * 0.3}px)` }}
+          style={{ transform: `translateY(-${offsetY * 0.05}px)` }}
         >
           <Image
             src={bulb}
