@@ -36,12 +36,12 @@ function footer(){
                           </div>
                 </a>
             <div className={styles.SocialLink}>
-             <a href="https://www.facebook.com/tecnoesis.nits" target="_blank"><div className={styles.SocialIcon}><Image src={Facebook}/></div></a> 
+             <a href="https://www.facebook.com/spark.nits" target="_blank"><div className={styles.SocialIcon}><Image src={Facebook}/></div></a> 
               <a href="https://www.instagram.com/tecnoesis.nits" target="_blank">  <div className={styles.SocialIcon}><Image src={Instagram}/></div></a>
               <a href="https://www.youtube.com/channel/UCCZVlLIiSchxOVzcRQ2w5HQ" target="_blank"> <div className={styles.SocialIcon}><Image src={YouTube}/></div></a> 
             </div>
             
-          <div className={`${styles.bulb} w-80 h-80 md:w-[30vw] md:h-80 left-0`}
+          <div className={`${styles.bulb2} w-80 h-80 md:w-[30vw] md:h-80 left-0`}
           style={{ transform: `translateY(-${(offsetY-1000) * 0.3}px)` }}
         >
           <Image
