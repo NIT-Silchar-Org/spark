@@ -5,7 +5,7 @@ import g2 from '../../public/img/gallery2.jpg'
 import g3 from '../../public/img/gallery3.jpg'
 import g4 from '../../public/img/gallery4.jpg'
 import g5 from '../../public/img/gallery5.jpg'
-import g6 from '../../public/img/gallery6.jpg'
+// import g6 from '../../public/img/gallery6.jpg'
 
 const Gallery = () => {
   const photos = [
@@ -14,7 +14,7 @@ const Gallery = () => {
     { imgSrc: g3 },
     { imgSrc: g4 },
     { imgSrc: g5 },
-    { imgSrc: g6 },
+    // { imgSrc: g6 },
   ]
 
   return (
