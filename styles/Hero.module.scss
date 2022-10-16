@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
-
 .label{
     position: absolute;
     top: 0;
@@ -11,15 +9,14 @@
     align-items: center;
     justify-content: center;
     mix-blend-mode: multiply;
-    font-family: 'Poppins', sans-serif;
-    font-size: 24rem;
-    font-weight: bold;
+    font-family: 'impact', sans-serif;
+    font-size: 26rem;
+    // font-weight: bold;
     text-transform: uppercase;
     color: white;
     letter-spacing: 2rem;
     padding: 0;
     .txt{
-        transform: scale(0.8, 1.2);
         position: absolute;
         z-index: 20;
     }
