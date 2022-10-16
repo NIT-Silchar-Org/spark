@@ -36,7 +36,7 @@ function footer(){
                           </div>
                 </a>
             <div className={styles.SocialLink}>
-             <a href="https://www.facebook.com/tecnoesis.nits" target="_blank"><div className={styles.SocialIcon}><Image src={Facebook}/></div></a> 
+             <a href="https://www.facebook.com/spark.nits" target="_blank"><div className={styles.SocialIcon}><Image src={Facebook}/></div></a> 
               <a href="https://www.instagram.com/tecnoesis.nits" target="_blank">  <div className={styles.SocialIcon}><Image src={Instagram}/></div></a>
               <a href="https://www.youtube.com/channel/UCCZVlLIiSchxOVzcRQ2w5HQ" target="_blank"> <div className={styles.SocialIcon}><Image src={YouTube}/></div></a> 
             </div>

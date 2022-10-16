@@ -1,14 +1,20 @@
 import React from 'react'
 import GalleryCarousel from '../elements/GalleryCarousel'
-import softwareTrack from '../../public/eventList/softwaretrack.png'
+import g1 from '../../public/img/gallery1.jpg'
+import g2 from '../../public/img/gallery2.jpg'
+import g3 from '../../public/img/gallery3.jpg'
+import g4 from '../../public/img/gallery4.jpg'
+import g5 from '../../public/img/gallery5.jpg'
+import g6 from '../../public/img/gallery6.jpg'
 
 const Gallery = () => {
   const photos = [
-    { imgSrc: softwareTrack },
-    { imgSrc: softwareTrack },
-    { imgSrc: softwareTrack },
-    { imgSrc: softwareTrack },
-    { imgSrc: softwareTrack },
+    { imgSrc: g1 },
+    { imgSrc: g2 },
+    { imgSrc: g3 },
+    { imgSrc: g4 },
+    { imgSrc: g5 },
+    { imgSrc: g6 },
   ]
 
   return (
