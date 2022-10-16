@@ -27,13 +27,13 @@ const Hamburger_menu = ({showMenu,setShowMenu}) => {
         >
           About
         </a>
-        <a
+        {/* <a
           onClick={() => setShowMenu((prevShowMenu) => !prevShowMenu)}
           href="/#artist"
           className="hamburger_links font-light"
         >
           Artist
-        </a>
+        </a> */}
         <a
           onClick={() => setShowMenu((prevShowMenu) => !prevShowMenu)}
           href="/#gallery"
