@@ -10,7 +10,7 @@ function Hs() {
   return (
     <div className="hs backgroundcolor">
       <Head>
-        <title>NITS SPARKS</title>
+        <title>SPARK</title>
       </Head>
       <div className="hero_bg min-h-[100vh] w-[100vw] flex">
         <Hamburger_menu showMenu={showMenu} setShowMenu={setShowMenu} />

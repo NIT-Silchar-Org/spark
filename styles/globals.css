@@ -302,5 +302,5 @@ html{
 
 .backgroundcolor {
   background: rgb(0,74,126);
-  background-image: linear-gradient(135deg, rgb(3, 77, 134), rgb(12, 0, 31));
+  background-image: linear-gradient(to bottom, black, rgb(12, 0, 31), rgb(3, 77, 134), rgb(3, 77, 134));
 }
