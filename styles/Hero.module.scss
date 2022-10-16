@@ -1,0 +1,41 @@
+.label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    mix-blend-mode: multiply;
+    font-family: 'impact', sans-serif;
+    font-size: 26rem;
+    // font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2rem;
+    padding: 0;
+    .txt{
+        position: absolute;
+        z-index: 20;
+    }
+    @media screen and (max-width: 1480px){
+        font-size: 16rem;
+    }
+    @media screen and (max-width: 1000px){
+        font-size: 14rem;
+    }
+    @media screen and (max-width: 978px){
+        font-size: 10rem;
+    }
+    @media screen and (max-width: 768px){
+        font-size: 8rem;
+    }
+    @media screen and (max-width: 480px){
+        font-size: 6rem;
+    }
+    @media screen and (max-width: 396px){
+        font-size: 4rem;
+    }
+}

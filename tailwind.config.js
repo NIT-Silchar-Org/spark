@@ -34,7 +34,8 @@ module.exports = {
         mokotoGlitch:['mokotoGlitch'],
         babaPro:['babaPro'],
         mokotoGlitchMark: ['mokotoGlitchMark'],
-        montserrat: ['montSerrat']
+        montserrat: ['montSerrat'],
+        impact: ['impact']
       },
       boxShadow: {
         gradient: ['-3px -3px 8px 4px #D03CAB, 3px 3px 8px 4px #4EDFFF']
@@ -44,8 +45,9 @@ module.exports = {
       },
       backgroundSize: {
         'grow': ['auto 120%']
-      }
+      },
     },
   },
   plugins: [],
 };
+
