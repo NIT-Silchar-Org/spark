@@ -43,8 +43,9 @@ module.exports = {
       },
       backgroundSize: {
         'grow': ['auto 120%']
-      }
+      },
     },
   },
   plugins: [],
 };
+
