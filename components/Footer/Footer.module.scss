@@ -58,8 +58,16 @@ height: 3rem;
    display: inline;
 }
 
+.bulb{
+    position: absolute !important;
+    bottom: 0 !important;
+}
+
 @media screen and (max-width:452px) {
     .sparkPara{
         font-size: 4rem;
+    }
+    .bulb{
+       display: none;
     }
 }
