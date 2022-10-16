@@ -14,8 +14,6 @@ const GalleryCarousel = ({ cardList = [], carouselSize }) => {
       parseInt(currentCardStyle.marginRight.replace('px', ''))
 
     setCarouselCardSize(cardMargin + cardWidth)
-
-
   }, [carouselSize])
 
   useEffect(() => {
@@ -26,7 +24,7 @@ const GalleryCarousel = ({ cardList = [], carouselSize }) => {
     return () => {
       clearInterval(carouselInterval)
     }
-  },[carouselCardSize])
+  }, [carouselCardSize])
 
   const style = {
     width: carouselCardSize * carouselSize,
@@ -94,12 +92,16 @@ const GalleryCarousel = ({ cardList = [], carouselSize }) => {
       <div className="hidden sm:block absolute w-full top-1/2">
         <div
           onClick={() => handleRightMovement(cardList, carouselSize)}
-          className="absolute -left-8 h-4 w-4 top-1/2 -translate-y-1/2 border-l-4 border-b-4 border-solid border-neon1 rotate-45 duration-200 hover:border-neon2"
-        ></div>
+          className="absolute -left-8 h-6 w-6 top-1/2 -translate-y-1/2 border-l-4 border-b-4 border-solid border-neon2 rotate-45 duration-200 hover:border-neon1"
+        >
+          <div className=" absolute -left-14  top-1/2 rounded-full w-16 h-16 bg-[#F757CF] blur-2xl"></div>
+        </div>
         <div
           onClick={() => handleLeftMovement(cardList, carouselSize)}
-          className="absolute -right-8 h-4 w-4 top-1/2 -translate-y-1/2 border-r-4 border-t-4 border-solid border-neon1 rotate-45 duration-200 hover:border-neon2"
-        ></div>
+          className="absolute -right-8 h-6 w-6 top-1/2 -translate-y-1/2 border-r-4 border-t-4 border-solid border-neon2 rotate-45 duration-200 hover:border-neon1"
+        >
+          <div className="absolute -right-14 bottom-1/2 rounded-full  w-16 h-16 bg-[#F757CF] blur-2xl"></div>
+        </div>
       </div>
     </div>
   )
