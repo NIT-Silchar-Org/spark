@@ -1,0 +1,95 @@
+.artistContainer {
+  background-color: #032123;
+  background-image: url('../../public/img/Artist_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+}
+
+.artistInfo {
+  color: #fff;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+.infoHeading {
+  font-size: 3rem;
+}
+.infoPara {
+  clip-path: polygon(
+    10% 0%,
+    100% 0,
+    100% 20%,
+    100% 62%,
+    80% 140%,
+    20% 100%,
+    0 100%,
+    0% 40%
+  );
+  background: linear-gradient(
+    178.54deg,
+    rgba(78, 223, 255, 0.3) -5.07%,
+    rgba(7, 213, 200, 0.3) 98.69%
+  );
+  overflow-y: scroll;
+  padding: 1rem 2.5rem;
+  max-height: 15rem;
+  border: 2px solid #39afdf;
+  filter: drop-shadow(0 0.2rem 0.25rem #206ecd);
+}
+.infoPara::-webkit-scrollbar {
+  display: none;
+}
+.artistImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.imageBorder {
+  height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  box-shadow: -3px 6px 14px #0ab4a9;
+  border: 1rem solid #0f103f;
+  border-radius: 1rem 0 1rem 0;
+}
+
+// MEDIA QUERY //
+@media screen and (max-width: 850px) {
+  .infoHeading {
+    font-size: 2rem;
+  }
+  .artistContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+  }
+  .artistInfo {
+    width: 100%;
+  }
+
+  .infoPara {
+    max-height: 10rem;
+  }
+  .artistImage {
+    width: 100%;
+  }
+  .imageBorder {
+    height: 100%;
+    width: 75%;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .infoHeading {
+    font-size: 1.5rem;
+  }
+}
