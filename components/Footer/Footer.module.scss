@@ -10,7 +10,7 @@
     background-size: 100%;
     // top: 261.938rem;
     // background-color: rgb(3, 77, 134);
-    background-image: linear-gradient(to bottom right,#00000094,rgb(3, 77, 134));
+    // background-image: linear-gradient(to bottom right,#00000094,rgb(3, 77, 134));
 }
 .SparkHead{
 max-width: 25.313rem;
@@ -58,7 +58,7 @@ height: 3rem;
    display: inline;
 }
 
-.bulb2{
+.bulb{
     position: absolute !important;
     bottom: 0 !important;
 }
@@ -67,7 +67,7 @@ height: 3rem;
     .sparkPara{
         font-size: 4rem;
     }
-    .bulb2{
+    .bulb{
        display: none;
     }
 }
