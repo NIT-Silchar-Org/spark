@@ -38,12 +38,12 @@ const Hero = ({ showMenu }) => {
         </div>
       </div>
 
-      <div className="relative h-[140vh] md:h-[50vh] lg:h-[60vh] w-[42vw] md:w-[80vw] m-0 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+      <div className="relative h-[15vh] md:h-[50vh] lg:h-[60vh] w-screen md:w-[80vw] m-0 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <video
           autoPlay
           muted
           loop
-          className="h-[140vh] md:h-[50vh] lg:h-[60vh] w-[40vw] md:w-[80vw] object-cover"
+          className="h-[15vh] md:h-[50vh] lg:h-[60vh] w-screen md:w-[80vw] object-cover"
         >
           <source src="/home/bgVideo.mp4" />
         </video>
